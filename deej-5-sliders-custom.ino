@@ -1,6 +1,6 @@
 const int NUM_SLIDERS = 3;
 const int analogInputs[NUM_SLIDERS] = {A0, A1, A2};//, A3, A4};
-const int digitalInputs[NUM_SLIDERS] = {12,-1,-1};
+const int digitalInputs[NUM_SLIDERS] = {-1,-1,-1};
 const int ledPin[NUM_SLIDERS] = {LED_BUILTIN,-1,-1};
 bool areMutedStates[NUM_SLIDERS] = {false, false, false};
 
