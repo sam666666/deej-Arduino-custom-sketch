@@ -19,7 +19,7 @@ for(int i = 0; i < NUM_SLIDERS; i++){
 }
 // led pins
 for(int i = 0; i < NUM_SLIDERS; i++){
-  if(digitalInputs[i] != -1){
+  if(ledPin[i] != -1){
     pinMode(ledPin[i], OUTPUT);
   }
 }
